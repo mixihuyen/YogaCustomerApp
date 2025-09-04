@@ -1,8 +1,9 @@
 # 🌟 Yoga Class Booking App 🧘‍♀️
 
-Welcome to the **Yoga Class Booking App**, a vibrant, user-friendly mobile app crafted to bring the joy of yoga to your fingertips! Whether you're a beginner or a seasoned yogi, this app makes finding, booking, and managing yoga classes effortless and fun. Built with **React Native** for a seamless cross-platform experience and powered by **Firebase** for real-time magic, this app is your gateway to a zen lifestyle. 🌿
+Welcome to the **Yoga Class Booking App**, a vibrant, user-friendly mobile app designed to bring the joy of yoga to your fingertips! Whether you're a beginner or a seasoned yogi, this app makes finding, booking, and managing yoga classes effortless and fun. Built with **React Native** and **Expo** for seamless cross-platform development, and powered by **Firebase** for real-time data magic, this app is your gateway to a zen lifestyle. 🌿
 
-📌 **GitHub Repository**: [mixihuyen/YogaCustomerApp](https://github.com/mixihuyen/YogaCustomerApp)
+📌 **GitHub Repository**: [mixihuyen/YogaCustomerApp](https://github.com/mixihuyen/YogaCustomerApp)  
+📲 **Download APK for Android**: [YogaCustomerApp.apk](https://drive.google.com/file/d/1xCm2k7VTmJ8uj_38plTgvTp_5Wm-Yt1j/view?usp=drive_link)
 
 ![Yoga App Banner](https://github.com/mixihuyen/YogaCustomerApp/blob/master/assets/IMG_8402%20(1).png)  
 *Find your zen with our beautifully designed yoga booking app!*
@@ -21,7 +22,7 @@ Welcome to the **Yoga Class Booking App**, a vibrant, user-friendly mobile app c
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React Native 📱 – Smooth, cross-platform mobile experience  
+- **Frontend**: React Native 📱 with Expo 🚀 – Smooth, cross-platform mobile experience  
 - **Backend**: Firebase 🔥 – Real-time database, authentication, and cloud storage  
 - **Version Control**: Git & GitHub 🐙 – Collaborative and organized development  
 - **Styling**: Vibrant, modern UI with a calming, yoga-inspired aesthetic 🌸  
@@ -30,7 +31,9 @@ Welcome to the **Yoga Class Booking App**, a vibrant, user-friendly mobile app c
 
 ## 🚀 Getting Started
 
-Follow these steps to bring the yoga vibes to your device!  
+Follow these steps to set up and run the app locally using **Expo**, or install the pre-built Android APK directly!  
+
+### Option 1: Run with Expo
 
 1. **Clone the Repository**:  
    ```bash
@@ -44,7 +47,13 @@ Follow these steps to bring the yoga vibes to your device!
    npm install
    ```
 
-3. **Set Up Firebase**:  
+3. **Install Expo CLI**:  
+   If you don’t have Expo CLI installed, install it globally:  
+   ```bash
+   npm install -g expo-cli
+   ```
+
+4. **Set Up Firebase**:  
    - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).  
    - Add your Firebase configuration to a `.env` file or directly in the app’s config file (e.g., `firebaseConfig.js`).  
    - Example configuration:  
@@ -59,22 +68,32 @@ Follow these steps to bring the yoga vibes to your device!
      };
      ```
 
-4. **Run the App**:  
-   - For iOS:  
-     ```bash
-     npm run ios
-     ```  
-   - For Android:  
-     ```bash
-     npm run android
-     ```
+5. **Run the App**:  
+   Start the Expo development server:  
+   ```bash
+   expo start
+   ```  
+   - Scan the QR code with the **Expo Go** app on your iOS or Android device to run the app.  
+   - Alternatively, press `i` for iOS simulator or `a` for Android emulator in the Expo CLI.  
+
+### Option 2: Install APK on Android
+
+1. **Download the APK**:  
+   Get the pre-built Android APK from [Google Drive](https://drive.google.com/file/d/1xCm2k7VTmJ8uj_38plTgvTp_5Wm-Yt1j/view?usp=drive_link).  
+
+2. **Install the APK**:  
+   - Transfer the APK to your Android device.  
+   - Enable "Install from Unknown Sources" in your device settings.  
+   - Open the APK file and follow the prompts to install.  
+
+3. **Launch the App**: Open the app on your Android device and start exploring yoga classes!  
 
 
 ---
 
 ## 🌈 How to Use
 
-1. **Launch the App**: Open the app on your phone or emulator and immerse yourself in the zen experience! 🕉️  
+1. **Launch the App**: Open the app via Expo Go or the installed APK and immerse yourself in the zen experience! 🕉️  
 2. **Sign Up or Log In**: Create an account or log in to unlock all features.  
 3. **Search for Classes**: Browse classes by teacher, date, or day using the powerful search tool.  
 4. **Book Your Spot**: Check availability, select your class, and book with ease.  

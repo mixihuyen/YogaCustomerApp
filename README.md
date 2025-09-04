@@ -1,6 +1,6 @@
 # YogaCustomerApp 🧘‍♀️
 
-![YogaCustomerApp Banner](https://github.com/mixihuyen/YogaCustomerApp/blob/master/IMG_8402.PNG)  
+![YogaCustomerApp Banner](https://github.com/mixihuyen/YogaCustomerApp/blob/master/assets/IMG_8402%20(1).png)  
 *A mobile app for booking yoga classes with ease and convenience.*
 
 ---
